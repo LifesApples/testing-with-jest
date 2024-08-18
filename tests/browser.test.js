@@ -39,7 +39,7 @@ test('Push and peek operations to see if display updates properly', async () => 
     let alert = await driver.switchTo().alert();
     await alert.sendKeys("Äpplen");
     //Need to use alert.accept in order to simluate clicking "ok", but omitting for now to show a failed test
-    
+    await alert.accept();
     let topOfStack = await driver.findElement(By.id('top_of_stack')).getText();
     expect(topOfStack).toEqual("Äpplen");
     let peekButton = await driver.findElement(By.id('peek'));

@@ -26,9 +26,7 @@ test('Test to check consistency after several attempts ', () => {
     stack.push("string");
     stack.push({ objKey: 'objValue' });
     stack.push(true);
-
-    expect(stack.peek()).toBe(false); //Changed this to false to show a failing test.
-
+    expect(stack.peek()).toBe(true);
     stack.pop(); 
     expect(stack.peek()).toEqual({ objKey: 'objValue' });
     stack.pop(); 
