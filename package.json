@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/LifesApples/testing-with-jest#readme",
   "dependencies": {
+    "geckodriver": "^4.4.3",
+    "selenium-webdriver": "^4.23.0",
     "underscore": "^1.13.7"
   },
   "devDependencies": {
