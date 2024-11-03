@@ -2,6 +2,4 @@
 A Jest + npm lab session
 
 ## More information (in Swedish)
-See [this page](http://mah-dv.github.io/courses/da344a-da355a/exercises/ex11.html)
-
-någon ny text
+See [this page](https://mau-webb.github.io/resurser/da395a-vt24/6-utvecklingsmetodik/i1/)
